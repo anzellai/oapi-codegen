@@ -142,7 +142,7 @@ func TestRefPathToGoType(t *testing.T) {
 	assert.Equal(t, "FooBar", goType)
 	assert.NoError(t, err, "Expecting no error")
 
-	_, err = RefPathToGoType("http://deepmap.com/doc.json#/components/parameters/foo_bar")
+	_, err = RefPathToGoType("http://anzellai.com/doc.json#/components/parameters/foo_bar")
 	assert.Errorf(t, err, "Expected an error on URL reference")
 
 	_, err = RefPathToGoType("doc.json#/components/parameters/foo_bar")

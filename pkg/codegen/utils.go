@@ -189,7 +189,7 @@ func StringInArray(str string, array []string) bool {
 // #/components/parameters/Bar -> Bar
 // #/components/responses/Baz -> Baz
 // Remote components (document.json#/Foo) are not yet supported
-// URL components (http://deepmap.com/schemas/document.json#Foo) are not yet
+// URL components (http://anzellai.com/schemas/document.json#Foo) are not yet
 // supported
 // We only support flat components for now, so no components in a schema under
 // components.

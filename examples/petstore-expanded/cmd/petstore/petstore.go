@@ -10,9 +10,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/deepmap/oapi-codegen/examples/petstore-expanded/api"
-	"github.com/deepmap/oapi-codegen/examples/petstore-expanded/internal"
-	"github.com/deepmap/oapi-codegen/pkg/middleware"
+	"github.com/anzellai/oapi-codegen/examples/petstore-expanded/api"
+	"github.com/anzellai/oapi-codegen/examples/petstore-expanded/internal"
+	"github.com/anzellai/oapi-codegen/pkg/middleware"
 	"github.com/labstack/echo/v4"
 	echomiddleware "github.com/labstack/echo/v4/middleware"
 )
